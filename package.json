@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
-     "build": "netlify deploy --prod"
+    "build": "netlify deploy --prod"
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +14,11 @@
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "netlify-cli": "^23.11.1",
     "netlify-lambda": "^2.0.16",
     "nodemon": "^3.1.11",
     "serverless-http": "^4.0.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.12.0"
   }
 }

@@ -1,28 +1,26 @@
- const express = require('express');
- const cors = require('cors');
- const path = require("path");
- const { filterImages, filterMotionImages } = require('./controller');
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+const cors = require('cors');
+const path = require("path");
+const { filterImages, filterMotionImages } = require('./controller');
+const PORT = 3000;
+// const SERVER_PATH = `http://localhost:${PORT}`;
 
-//  const routes = require('./routes');
+// Middleware: Parse JSON bodies (application/json)
+app.use(bodyParser.json());
 
- const app = express();
- const router = express.Router();
-
- app.use(express.json());
- app.use(cors());
-
- // Serve static files from the "public" folder
+// Basic CORS setup (allow all origins)
+app.use(cors());
+    
+// Serve static files from the "public" folder
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
-router.get("/", (req, res) => {
-    res.send("App is running..");
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
 });
 
- router.get('/test', (req, res) => {
-     res.send('Connected to backend server!');
- });
-
-router.get('/fetch-image', async (req, res) => {
+app.get('/fetch-image', async (req, res) => {
     // setTimeout(async function () {
     const resObj = {};
     const imagesData = await filterImages(req?.query?.prompt);
@@ -38,7 +36,7 @@ router.get('/fetch-image', async (req, res) => {
     // }, 2000);
 });
 
-router.get('/fetch-motion-image', async (req, res) => {
+app.get('/fetch-motion-image', async (req, res) => {
     // setTimeout(async function () {
     const resObj = {};
     const imagesGif = await filterMotionImages(req.query.prompt);
@@ -50,6 +48,10 @@ router.get('/fetch-motion-image', async (req, res) => {
     // }, 2000);
 });
 
- app.use('/api',router)
-
- module.exports = app;
+// ✅ Global error handler for CORS errors
+app.use((err, req, res, next) => {
+    if (err instanceof Error && err.message.includes('CORS')) {
+        return res.status(403).json({ error: err.message });
+    }
+    next(err);
+});
