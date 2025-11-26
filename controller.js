@@ -14,8 +14,12 @@ const filterImages = async (prompt) => {
 
     if (ifPromtIsMotion?.length > 0) {
         let arr = imageGif.map((val) => val.search_val);
+        console.log('arr =========', arr);
         const foundElement = arr.find(v => prompt.includes(v));
+        console.log('prompt ===',prompt);
+        console.log('foundElement =========', foundElement);        
         const filteredImage = imageGif.find((val) => val?.search_val == foundElement);
+        console.log('filteredImage =========', filteredImage);
         return { filteredImage: filteredImage, isMotion: true };
     } else {
         let arr = imageJpeg.map((val) => val.search_val);

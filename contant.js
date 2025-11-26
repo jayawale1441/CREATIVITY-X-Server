@@ -93,10 +93,7 @@ const imageJpeg = [
         'search_val': 'pari',
         'image': `images/jpeg/pari.jpeg`
     },
-
-    // places / Location
-    //things
-     {
+    {
         'search_val': 'building',
         'image': `images/jpeg/building.jpeg`
     },
@@ -120,7 +117,6 @@ const imageJpeg = [
         'search_val': 'sword',
         'image': `images/jpeg/sword.jpeg`
     },
-    // Data
     {
         'search_val': 'ballon',
         'image': `images/jpeg/ballon.jpeg`
@@ -165,19 +161,6 @@ const imageJpeg = [
         'search_val': 'clock',
         'image': `images/jpeg/clock.jpeg`
     },
-    // {
-    //     'search_val': '',
-    //     'image': `images/jpeg/.jpeg`
-    // },
-    // {
-    //     'search_val': '',
-    //     'image': `images/jpeg/.jpeg`
-    // },
-    // {
-    //     'search_val': '',
-    //     'image': `images/jpeg/.jpeg`
-    // },
-
     //sample time
     {
         'search_val': 'cat',
@@ -257,218 +240,202 @@ const imageJpeg = [
         'search_val': 'ai',
         'image': `images/jpeg/ai.jpeg`
     },
-      {
+    {
         'search_val': 'computer',
         'image': `images/jpeg/computer.jpeg`
     },
-      {
+    {
         'search_val': 'crystal',
         'image': `images/jpeg/crystal.jpeg`
     },
-      {
+    {
         'search_val': 'cyborg',
         'image': `images/jpeg/cyborg.jpeg`
     },
-      {
+    {
         'search_val': 'drone',
         'image': `images/jpeg/drone.jpeg`
     },
-      {
+    {
         'search_val': 'fireball',
         'image': `images/jpeg/fireball.jpeg`
     },
-      {
+    {
         'search_val': 'galaxy',
         'image': `images/jpeg/galaxy.jpeg`
     },
-      {
+    {
         'search_val': 'machine',
         'image': `images/jpeg/machine.jpeg`
     },
-      {
+    {
         'search_val': 'magic',
         'image': `images/jpeg/magic.jpeg`
     },
-      {
+    {
         'search_val': 'phoenix',
         'image': `images/jpeg/phoenix.jpeg`
     },
-      {
+    {
         'search_val': 'planet',
         'image': `images/jpeg/planet.jpeg`
     },
-      {
+    {
         'search_val': 'portal',
         'image': `images/jpeg/portal.jpeg`
     },
-      {
+    {
         'search_val': 'ufo',
         'image': `images/jpeg/ufo.jpeg`
     },
     //5. jung food and characters
-      {
+    {
         'search_val': 'bumrah',
         'image': `images/jpeg/bumrah.jpeg`
     },
-      {
+    {
         'search_val': 'burgar',
         'image': `images/jpeg/burgar.jpeg`
     },
-     {
+    {
         'search_val': 'hardik pandya',
         'image': `images/jpeg/hardik pandya.jpeg`
     },
-      {
+    {
         'search_val': 'idali',
         'image': `images/jpeg/idali.jpeg`
     },
-     {
+    {
         'search_val': 'jenifar vinget',
         'image': `images/jpeg/jenifar vinget.jpeg`
     },
-      {
+    {
         'search_val': 'juice',
         'image': `images/jpeg/juice.jpeg`
     },
-     {
+    {
         'search_val': 'madhuri dixit',
         'image': `images/jpeg/madhuri dixit.jpeg`
     },
-      {
+    {
         'search_val': 'mohsin khan',
         'image': `images/jpeg/mohsin khan.jpeg`
     },
-     {
+    {
         'search_val': 'mouni roy',
         'search_val': 'moni',
         'image': `images/jpeg/mouni roy.jpeg`
     },
-      {
+    {
         'search_val': 'ms dhoni',
         'search_val': 'dhoni',
         'image': `images/jpeg/ms dhoni.jpeg`
     },
-     {
+    {
         'search_val': 'noodles',
         'image': `images/jpeg/noodles.jpeg`
     },
-      {
+    {
         'search_val': 'pizza',
         'image': `images/jpeg/pizza.jpeg`
-    },
-    //  {
-    //     'search_val': '',
-    //     'image': `images/jpeg/.jpeg`
-    // },
-    //   {
-    //     'search_val': '',
-    //     'image': `images/jpeg/.jpeg`
-    // },
-    
-
-
+    }
 ];
 
 const imageGif = [
     //// 5. Fantasy / Sci-fi items
-     {
+    {
         'search_val': 'ufo',
         'image': `images/gif/ufo.gif`
     },
 
-      {
+    {
         'search_val': 'vr',
         'image': `images/gif/vr.gif`
     },
 
-      {
+    {
         'search_val': 'ai',
         'image': `images/gif/ai.gif`
     },
-      {
+    {
         'search_val': 'computer',
         'image': `images/gif/computer.gif`
     },
 
-      {
+    {
         'search_val': 'crystal',
         'image': `images/gif/crystal.gif`
     },
-  {
+    {
         'search_val': 'cyborg',
         'image': `images/gif/cyborg.gif`
     },
-  {
+    {
         'search_val': 'drone',
         'image': `images/gif/drone.gif`
     },
-  {
+    {
         'search_val': 'fireball',
         'image': `images/gif/fireball.gif`
     },
-  {
+    {
         'search_val': 'galaxy',
         'image': `images/gif/galaxy.gif`
     },
-  {
+    {
         'search_val': 'hologram',
         'image': `images/gif/hologram.gif`
     },
-  {
+    {
         'search_val': 'machine',
         'image': `images/gif/machine.gif`
     },
-  {
+    {
         'search_val': 'magic',
         'image': `images/gif/magic.gif`
     },
-  {
+    {
         'search_val': 'phoenix',
         'image': `images/gif/phoenix.gif`
     },
-  {
+    {
         'search_val': 'planet',
         'image': `images/gif/planet.gif`
     },
-  {
+    {
         'search_val': 'portal',
         'image': `images/gif/portal.gif`
     },
-  {
+    {
         'search_val': 'robot',
         'image': `images/gif/robot.gif`
     },
-  {
+    {
         'search_val': 'server',
         'image': `images/gif/server.gif`
     },
-  {
+    {
         'search_val': 'setellite',
         'image': `images/gif/setellinte.gif`
     },
-      {
-        'search_val': '',
-        'image': `images/gif/.gif`
-    },
     //things
-
-      {
+    {
         'search_val': 'building',
         'image': `images/gif/building.gif`
     },
-  {
+    {
         'search_val': 'chear',
         'image': `images/gif/chear.gif`
     },
-  {
+    {
         'search_val': 'gun',
         'image': `images/gif/gun.gif`
     },
-  {
+    {
         'search_val': 'laptop',
         'image': `images/gif/laptop.gif`
     },
-  {
+    {
         'search_val': 'mobile',
         'image': `images/gif/mobile.gif`
     },
@@ -476,19 +443,15 @@ const imageGif = [
         'search_val': 'sword',
         'image': `images/gif/sword.gif`
     },
-
-
-
     //wrong image please change it
-     {
+    {
         'search_val': 'server',
         'image': `images/gif/server.gif`
     },
-     {
+    {
         'search_val': 'setellite',
         'image': `images/gif/setellite.gif`
     },
-
     //Characters/Persons
     {
         'search_val': 'fairy',
@@ -646,35 +609,22 @@ const imageGif = [
         'search_val': 'camera',
         'image': `images/gif/camera.gif`
     },
-     {
+    {
         'search_val': 'car',
         'image': `images/gif/car.gif`
     },
-     {
+    {
         'search_val': 'castle',
         'image': `images/gif/castle.gif`
     },
-     {
+    {
         'search_val': 'clock',
         'image': `images/gif/clock.gif`
     },
-     {
+    {
         'search_val': 'desert',
         'image': `images/gif/desert.gif`
     },
-    //  {
-    //     'search_val': '',
-    //     'image': `images/gif/.gif`
-    // },
-    //  {
-    //     'search_val': '',
-    //     'image': `images/gif/.gif`
-    // },
-    //sample
-    // {
-    //     'search_val': 'fairy',
-    //     'image': `images/gif/fairy.gif`
-    // },
     {
         'search_val': 'cat',
         'image': `images/gif/cat.gif`
